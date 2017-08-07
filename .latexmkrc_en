@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 
 # $latex                       = 'latex -shell-escape -synctex=1 -halt-on-error %O %S';
-$latex                       = 'uplatex -synctex=1 -halt-on-error %O %S';
+$latex                       = 'latex -synctex=1 -halt-on-error %O %S';
 $bibtex                      = 'bibtex %O %B';
 $dvipdf                      = 'dvipdfmx %O -o %D %S';
 $makeindex                   = 'mendex -U %O -o %D %S';
